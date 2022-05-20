@@ -49,6 +49,27 @@
       ],
       "instructions": "Toast bread, Fry tuna, build, serve.",
       "id": 3
+    },
+    {
+      "origin": "USA",
+      "name": "Chicken wings",
+      "author": "Louisiana king",
+      "description": "Crispy wings with hot sauce",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/classic-buffalo-wings-horizontal-279-1547506077.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "Chicken wings",
+          "quantity": "500g"
+        },
+        {
+          "id": 2,
+          "ingredient": "hot sauce",
+          "quantity": "50g"
+        }
+      ],
+      "instructions": "Cook wings, add sauce, mix, serve",
+      "id": 4
     }
   ]
 }
