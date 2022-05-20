@@ -1,0 +1,33 @@
+.Main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70vw;
+  margin: 2rem auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+
+a:hover {
+  color: green;
+}
+
+.Main div {
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .Main {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+}

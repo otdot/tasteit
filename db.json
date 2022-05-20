@@ -1,0 +1,54 @@
+{
+  "recipes": [
+    {
+      "origin": "FIN",
+      "name": "Macaroni Casserole",
+      "author": "Otto",
+      "description": "Baked macaroni and beef",
+      "image": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/5BF0571A-2A09-480D-9E2C-ED58624E925F/Derivates/ABDD45F0-7DAE-4857-80AF-F3E16669F00E.jpg",
+      "ingredients": [
+        {
+          "ingredient": "Macaroni",
+          "quantity": "100g"
+        },
+        {
+          "ingredient": "Minced beef",
+          "quantity": "100g"
+        },
+        {
+          "ingredient": "Milk",
+          "quantity": "3dl"
+        },
+        {
+          "ingredient": "Egg",
+          "quantity": "1pcs"
+        }
+      ],
+      "instructions": "Boil Macaroni, Fry beef, add milk and eggs and bake for one hour",
+      "ingredient": "Egg",
+      "quantity": "1pcs",
+      "id": 2
+    },
+    {
+      "origin": "AUS",
+      "name": "Tuna sandwich",
+      "author": "Australian lad",
+      "description": "Beautiful fresh fried tuna between toasted white bread",
+      "image": "https://www.hummusapien.com/wp-content/uploads/2020/03/Healthy-Tuna-Salad-4-2.jpg",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient": "White bread",
+          "quantity": "2pcs"
+        },
+        {
+          "id": 2,
+          "ingredient": "Fresh Tuna",
+          "quantity": "100g"
+        }
+      ],
+      "instructions": "Toast bread, Fry tuna, build, serve.",
+      "id": 3
+    }
+  ]
+}
