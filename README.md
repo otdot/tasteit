@@ -11,3 +11,5 @@ Recipe app with dummy json-server database. Create and search for recipes.
 - axios
 - json-server
 - react-router-dom
+
+Site deployed on: https://tasteitappotto.herokuapp.com/
