@@ -13,7 +13,7 @@ export const AllRecipes = () => {
     setIsLoading(true);
     axios
       .all([
-        axios.get("https://dbfortasteitapp.herokuapp.com/recipes"),
+        axios.get("https://dbforrecipes.herokuapp.com/recipes"),
         axios.get("https://restcountries.com/v2/all"),
       ])
       .then(

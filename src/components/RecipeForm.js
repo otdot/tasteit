@@ -46,8 +46,9 @@ export const RecipeForm = () => {
       .then((res) => setCountries(res.data));
   }, []);
 
-  const handlePost = () => {
-    axios.post("https://dbfortasteitapp.herokuapp.com/recipes", recipe);
+  const handlePost = (e) => {
+    e.preventDefault();
+    axios.post("https://dbforrecipes.herokuapp.com/recipes", recipe);
   };
 
   const handleIngredient = (e, i) => {

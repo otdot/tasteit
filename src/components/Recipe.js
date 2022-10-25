@@ -23,7 +23,7 @@ export const Recipe = () => {
     setIsLoading(true);
 
     axios
-      .get(`https://dbfortasteitapp.herokuapp.com/recipes/${id}`)
+      .get(`https://dbforrecipes.herokuapp.com/recipes/${id}`)
       .then((res) => {
         setRecipe(res.data);
         setIngredients(res.data.ingredients);
