@@ -22,12 +22,10 @@ export const Recipe = () => {
   useEffect(() => {
     setIsLoading(true);
 
-    axios
-      .get(`https://dbforrecipes.herokuapp.com/recipes/${id}`)
-      .then((res) => {
-        setRecipe(res.data);
-        setIngredients(res.data.ingredients);
-      });
+    axios.get(`/recipes/${id}`).then((res) => {
+      setRecipe(res.data);
+      setIngredients(res.data.ingredients);
+    });
 
     setIsLoading(false);
   }, []);

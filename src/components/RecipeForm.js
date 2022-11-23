@@ -48,7 +48,7 @@ export const RecipeForm = () => {
 
   const handlePost = (e) => {
     e.preventDefault();
-    axios.post("https://dbforrecipes.herokuapp.com/recipes", recipe);
+    axios.post("/recipes", recipe);
   };
 
   const handleIngredient = (e, i) => {
